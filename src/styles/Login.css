@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;900&display=swap');
+
+.login-bg {
+    background-color: #00aeff;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(0, 0, 0);
+    width: 100%;
+    height: 100vh;
+}
+
+.login-btn {
+    background-color: #1900ff;
+    color: rgb(255, 255, 255);
+}
+
+.login-btn:hover {
+    background-color: rgb(60, 255, 0);
+    color: rgb(0, 0, 0);
+}
+
+.not-registered {
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+
+.not-registered:hover {
+    color: rgb(255, 0, 0);
+}

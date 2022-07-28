@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Bebas+Neue&family=Dela+Gothic+One&family=Lobster&family=Merriweather:wght@300;400;900&family=Roboto:wght@100;400&display=swap');
+
+.navbar {
+    background: rgb(0, 0, 0);
+    height: 80px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1.2rem;
+    justify-self: flex-start;
+    opacity: 1;
+    transition: all 0.5s ease;
+    position: sticky !important;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+    margin-bottom: -9px;
+}
+
+.navbrand {
+    color: rgb(187, 255, 0);
+    font-family: 'Roboto';
+    font-size: 35px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1.2rem;
+    justify-self: flex-start;
+    opacity: 1;
+    transition: all 0.5s ease;
+}
+
+.navbrand:hover {
+    color: rgb(187, 255, 0);
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1.2rem;
+    justify-self: flex-start;
+    opacity: 1;
+    transition: all 0.5s ease;
+}
+
+.navlink {
+    color: rgb(187, 255, 0);
+    font-family: 'Roboto';
+    text-decoration: none;
+    justify-content: flex-end;
+    font-size: 1.2rem;
+    justify-self: flex-start;
+    opacity: 1;
+    transition: all 0.5s ease;
+}
+
+.navlink:hover {
+    color: white;
+    justify-content: flex-end;
+    font-size: 1.2rem;
+    justify-self: flex-start;
+    opacity: 1;
+    transition: all 0.5s ease;
+}
